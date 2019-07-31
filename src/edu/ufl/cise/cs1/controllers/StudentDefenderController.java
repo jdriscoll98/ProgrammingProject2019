@@ -3,9 +3,11 @@ package edu.ufl.cise.cs1.controllers;
 import game.controllers.DefenderController;
 import game.models.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public final class StudentDefenderController implements DefenderController {
+	private List<Node> powerPillsToAttack = new ArrayList<>();
 	public void init(Game game) {
 	}
 
@@ -13,62 +15,79 @@ public final class StudentDefenderController implements DefenderController {
 	}
 
 	public int[] update(Game game, long timeDue) {
+
+		//There will be 4 defenders: Chase, Ambush, Patrol, and Gaurd
+		// Smart: Chases until attacker gets close to a pill then flees
+		// Chase: Chases after attacker unless vulnerable
+		// Bait: Smart Defender, but gets close to attacker when hes waiting to eat pill
+		// Gaurd: Chase until 2 Power Pills left, then "gaurd" the furthest power pill from the attacker
+		// Since the defenders move at the same speed as the attacker, it is important that they all have different strategies in order to trap the attacker
 		Attacker attacker = game.getAttacker();
 		int[] actions = new int[Game.NUM_DEFENDER];
 		List<Defender> enemies = game.getDefenders();
+		actions[0] = getSmartDirection(game, enemies.get(0), attacker, enemies.get(1).getPossibleDirs());
+		actions[1] = getGaurdDirection(game, enemies.get(1), attacker, enemies.get(1).getPossibleDirs());
+		actions[2] = getChaseDirection(game, enemies.get(2), attacker, enemies.get(2).getPossibleDirs());
+		actions[3] = getBaitDirection(game, enemies.get(3), attacker, enemies.get(3).getPossibleDirs());
 
-		//There will be 4 defenders: Chase, Ambush, Patrol, and Gaurd
-		// Chase: Find direction to make euclidean distance to attacker smaller
-		// Ambush: Find direction to make distance to attackers line of direction smaller
-		// Patrol: Roam randomly until Attacker is close, then become chase/ambush
-		// Gaurd: Chase until 2 Power Pills left, then "gaurd" the furthest power pill from the attacker
-		// Since the defenders move at the same speed as the attacker, it is important that they all have different strategies in order to trap the attacker
-		for (int i = 0; i < actions.length; i++) {
-			Defender defender = enemies.get(i);
-			List<Integer> possibleDirs = defender.getPossibleDirs();
-			actions[i] = getChaseDirection(defender, attacker, possibleDirs);
-			switch (i) {
-				case (0):
-					actions[i] = getChaseDirection(defender, attacker, possibleDirs);
-					break;
-				case(1):
-					actions[i] = getAmbushDirection(defender, attacker, possibleDirs);
-					break;
-				case(2):
-					actions[i] = getAmbushDirection(defender, attacker, possibleDirs);
-//					actions[i] = getPatrolDirection(defender, attacker, possibleDirs);
-					break;
-				case(3):
-					actions[i] = getChaseDirection(defender, attacker, possibleDirs);
-//					actions[i] = getGaurdDirection(defender, attacker, possibleDirs);
-			}
-		}
 
 		return actions;
 	}
+	public int getGaurdDirection(Game game, Defender defender, Attacker attacker, List<Integer> possibleDirs){
+		List<Node> powerPillList = game.getPowerPillList();
+		List<Node> powerPillsLeft = new ArrayList<>();
+		for (Node node: powerPillList) {
+			if (node != null) {
+				powerPillsLeft.add(node);
+			}
+		}
+		if (powerPillsLeft != null) {
+			if (powerPillsLeft.size() == 2) {
+				Node furthestPowerPill = attacker.getTargetNode(powerPillList, false);
+				int direction = defender.getNextDir(furthestPowerPill, true);
+				return direction;
+			}}
+		return getChaseDirection(game, defender, attacker, possibleDirs);
+	}
 
-	public int getChaseDirection(Defender defender, Attacker attacker, List<Integer> possibleDirs) {
+	public int getChaseDirection(Game game, Defender defender, Attacker attacker, List<Integer> possibleDirs) {
 		Node location = attacker.getLocation();
 		int direction = defender.getNextDir(location, true);
+		if (defender.isVulnerable()) {
+			return -direction;
+		}
 		return direction;
 	}
-//
-
-
-	public int getAmbushDirection(Defender defender, Attacker attacker, List<Integer> possibleDirs)
-	{
-		List<Node> possibleLocations = attacker.getPossibleLocations(false);
-		Node closestNode = defender.getTargetNode(possibleLocations, true);
-		Node furthestNode = defender.getTargetNode(possibleLocations, false);
-		System.out.println("Closet: " + closestNode);
-		System.out.println("Furthest: " + furthestNode);
-		int direction = defender.getNextDir(closestNode, true);
-		return direction;
-
+	public int getSmartDirection(Game game, Defender defender, Attacker attacker, List<Integer> possibleDirs) {
+		Node attackerLocation = attacker.getLocation();
+		List<Node> powerPillList = game.getPowerPillList();
+		int max_distance = 50074;
+		for (Node node: powerPillList) {
+			if (node != null) {
+				if (attackerLocation.getPathDistance(node) < max_distance) {
+					max_distance = attackerLocation.getPathDistance(node);
+				}
+			}
+		}
+		if (max_distance < 25 || defender.isVulnerable()) {
+			return defender.getNextDir(attackerLocation, false);
+		}
+		return defender.getNextDir(attackerLocation, true);
+	}
+	public int getBaitDirection(Game game, Defender defender, Attacker attacker, List<Integer> possibleDirs) {
+		Node attackerLocation = attacker.getLocation();
+		List<Node> powerPillList = game.getPowerPillList();
+		int max_distance = 50074;
+		for (Node node: powerPillList) {
+			if (node != null) {
+				if (attackerLocation.getPathDistance(node) < max_distance) {
+					max_distance = attackerLocation.getPathDistance(node);
+				}
+			}
+		}
+		if (max_distance < 25 && max_distance > 5) {
+			return defender.getNextDir(attackerLocation, false);
+		}
+		return defender.getNextDir(attackerLocation, true);
 	}
 }
-//	public int getPatrolDirection(defender, attacker, possibleDirs) {
-//
-//	}
-//	public int getGaurdDirection(defender, attacker, possibleDirs) {}
-//}
