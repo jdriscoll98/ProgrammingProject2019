@@ -4,7 +4,6 @@
     <list default="true" id="f93a5615-1996-447b-b12e-b95e14866fc7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/game/Exec.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/game/Exec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java" afterDir="false" />
     </list>
     <ignored path="Ms. Pac-Man.iws" />
@@ -25,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentAttackerController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+            <state relative-caret-position="216">
+              <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="60" column="74" lean-forward="true" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
+            <state relative-caret-position="250">
+              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/game/system/_Defender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="195">
               <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
             </state>
           </provider>
@@ -55,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/game/Exec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="360">
               <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/game/system/_Attacker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="90">
               <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
             </state>
           </provider>
@@ -76,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/game/system/_Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="420">
               <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
             </state>
           </provider>
@@ -85,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/game/system/_Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="1740">
               <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/game/system/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="285">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#395#396#0" expanded="true" />
@@ -109,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="7710">
               <caret line="556" column="28" selection-start-line="556" selection-start-column="28" selection-end-line="556" selection-end-column="28" />
             </state>
           </provider>
@@ -118,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/pakupaku-benchmark.jar!/game/controllers/example/OriginalDefenders.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3604">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="345">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -136,7 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_Game.LEFT</find>
       <find>addP</find>
       <find>Game.LEFT</find>
       <find>getActions</find>
@@ -166,6 +164,7 @@
       <find>writer</find>
       <find>Exec.</find>
       <find>rng</find>
+      <find>Gaurd</find>
     </findStrings>
     <replaceStrings>
       <replace>.getX()</replace>
@@ -266,82 +265,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingProject2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pakupaku-benchmark.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pakupaku-benchmark.jar" type="ab9368bb:PsiFileNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pakupaku-benchmark.jar" type="ab9368bb:PsiFileNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="benchmark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pakupaku-benchmark.jar" type="ab9368bb:PsiFileNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingProject2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingProject2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingProject2019" type="462c0819:PsiDirectoryNode" />
               <item name="System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatorraider" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +302,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14902943" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -389,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example - Visual">
+  <component name="RunManager" selected="Application.Example - Scored">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -798,10 +750,10 @@
     <option name="totallyTimeSpent" value="175189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20254862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20523138" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="1.0" />
@@ -810,7 +762,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49353796" weight="0.33404598" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.496633" visible="true" weight="0.4068027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.496633" visible="true" weight="0.4064516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5877551" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -820,7 +772,6 @@
       <window_info anchor="bottom" id="Application Servers" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32979852" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.43629086" weight="0.33618385" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -831,6 +782,7 @@
       <window_info anchor="right" id="Data View" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24794894" />
@@ -999,21 +951,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentAttackerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/game/system/_Attacker.java">
+    <entry file="file://$PROJECT_DIR$/System/game/system/_Defender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="195">
+          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/System/game/Exec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="360">
           <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1021,30 +973,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/pakupaku-benchmark.jar!/game/controllers/example/OriginalDefenders.class">
+    <entry file="file://$PROJECT_DIR$/System/game/system/_Attacker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3604">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/game/system/_Defender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+        <state relative-caret-position="90">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/System/game/system/_Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="420">
           <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/game/system/_Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/System/game/system/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="285">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#395#396#0" expanded="true" />
@@ -1054,25 +1009,29 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="7710">
           <caret line="556" column="28" selection-start-line="556" selection-start-column="28" selection-end-line="556" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/game/system/_Node.java">
+    <entry file="jar://$PROJECT_DIR$/lib/pakupaku-benchmark.jar!/game/controllers/example/OriginalDefenders.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="60" column="74" lean-forward="true" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
+        <state relative-caret-position="216">
+          <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
         </state>
       </provider>
     </entry>
